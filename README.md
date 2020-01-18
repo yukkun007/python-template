@@ -1,9 +1,15 @@
 # python-template
 
-## Installation
+## Install
 
 ```(sh)
 pip install git+https://github.com/yukkun007/python-template
+```
+
+## Update
+
+```(sh)
+pip install -U git+https://github.com/yukkun007/python-template
 ```
 
 ## Usage
