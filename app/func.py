@@ -3,4 +3,4 @@ def _get_message(param: str) -> str:
 
 
 def message() -> None:
-    print(_get_message("World"), end="")
+    print(_get_message("World!!"), end="")
