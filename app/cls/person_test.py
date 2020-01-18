@@ -18,15 +18,15 @@ class TestPerson:
         p.past(5)
         assert p.age == 40
 
-    def test_show(self, person1):
+    def test_show(self, person1: Person):
         person1.show()
 
-    def test_past_and_show(self, person1):
+    def test_past_and_show(self, person1: Person):
         person1.past(10)
         person1.show()
         assert person1.age == 45
 
     # setは出来ない
-    def test_invalid_access(self, person1):
+    def test_invalid_access(self, person1: Person):
         with pytest.raises(AttributeError):
             person1.name = "Hoge"

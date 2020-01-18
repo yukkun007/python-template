@@ -9,6 +9,6 @@ class TestDog:
         owner = Owner("Zagitova", 17, "rusia")
         return Dog("Masaru", owner)
 
-    def test_show(self, dog1):
+    def test_show(self, dog1: Dog):
         dog1.show()
         assert dog1.name == "Masaru"
