@@ -1,6 +1,6 @@
 import pytest
-from app.cls.dog import Dog
-from app.cls.owner import Owner
+from myapp.cls.dog import Dog
+from myapp.cls.owner import Owner
 
 
 class TestDog:

@@ -1,4 +1,4 @@
-from app.cls.person import Person
+from myapp.cls.person import Person
 
 
 class Owner(Person):

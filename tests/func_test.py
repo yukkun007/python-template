@@ -1,5 +1,5 @@
 import pytest
-from app.func import _get_message, message
+from myapp.func import _get_message, message
 
 
 class TestFunc:
@@ -13,4 +13,4 @@ class TestFunc:
         assert result == expected
 
     def test_message(self):
-        message()
+        message("FooBar")

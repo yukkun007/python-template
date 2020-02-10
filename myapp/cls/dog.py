@@ -1,4 +1,4 @@
-from app.cls.owner import Owner
+from myapp.cls.owner import Owner
 
 
 class Dog:

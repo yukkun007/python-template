@@ -1,5 +1,5 @@
 import pytest
-from app.cls.owner import Owner
+from myapp.cls.owner import Owner
 
 
 class TestOwner:
