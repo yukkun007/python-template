@@ -20,6 +20,7 @@ python_version = "3.6"
 [scripts]
 v = "python --version"
 start = "myapp"
+start_win = "py -m myapp"
 ut = "py.test -v --capture=no --cov-config .coveragerc --cov=myapp --cov-report=xml --cov-report term-missing ."
 utsp = "py.test -v --capture=no --cov-config .coveragerc --cov=myapp --cov-report=xml --cov-report term-missing -k Person ."
 ut_fast = "py.test -v --capture=no --cov-config .coveragerc --cov=myapp --cov-report=xml --cov-report term-missing -m 'not slow' ."
